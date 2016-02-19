@@ -9,7 +9,7 @@ deps:
 
 build:
 	go clean
-	go build -tags ${TAGS
+	go build -tags ${TAGS}
 
 test:
 	go test -v
